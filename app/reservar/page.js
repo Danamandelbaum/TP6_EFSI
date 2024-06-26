@@ -2,6 +2,10 @@ import Link from "next/link";
 
 export default function Reservar(){
     return (
-      <Link href = "/components/Form">Form</Link>
+      <div>
+      <Link href = "reservar/components/Form">Form</Link>
+      <br></br>
+      <Link href = "reservar/components/Citas">Reservas</Link>
+      </div>
     )
 }

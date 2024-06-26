@@ -1,4 +1,4 @@
-
+import styles from "./page.module.css";
 "use client";
 import React, { useState } from 'react';
 export default function Form(){
