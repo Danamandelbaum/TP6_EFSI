@@ -1,7 +1,8 @@
-import styles from "./page.module.css";
 "use client";
+import styles from "./form.module.css";
 import React, { useState } from 'react';
-export default function Form(){
+
+export default function Form({ citas, setCitas }){
     const [mascota, setMascota] = useState('');
     const [propietario, setPropietario] = useState('');
     const [fecha, setFecha] = useState('');
@@ -21,7 +22,7 @@ export default function Form(){
       }
       //ES LO MISMO QUE UN ALERT PERO PARA CONFIRMAR
 
-      setCitas([...citaS, { mascota, propietario, fecha, hora, sintomas }]);
+      setCitas([...citas, { mascota, propietario, fecha, hora, sintomas }]);
       setMascota('');
       setPropietario('');
       setFecha('');

@@ -1,12 +1,10 @@
-import './cita.css';
-import React, { useState } from 'react';
-import styles from "./page.module.css";
+import styles from "./cita.module.css";
 
 
-function Cita({ index, mascota, propietario, fecha, hora, sintomas, citaS, setCitaS }) {
+function Cita({ index, mascota, propietario, fecha, hora, sintomas, citas, setCitas }) {
   const eliminarCita = () => {
     if (window.confirm('¿Desea eliminar esta cita?')) {
-      setCitaS(citaS.filter((c, i) => i !== index));
+      setCitas(citas.filter(i => i !== index));
       //HACE UN NUEVO ARRAY CON TODAS LAS CITAS MENOS LA QUE TENGA EL INDICE DE LA QUE QUEREMOS BORRAR
     }
   }

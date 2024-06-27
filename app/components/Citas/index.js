@@ -1,7 +1,6 @@
-import './citas.css';
 import React from 'react';
-import Cita from '../Cita/cita.js';
-import styles from "./page.module.css";
+import Cita from '../Cita';
+import styles from "./citas.module.css";
 
 export const Citas = ({ citas, setCitas }) => {
   return (
@@ -16,8 +15,8 @@ export const Citas = ({ citas, setCitas }) => {
             fecha={c.fecha}
             hora={c.hora}
             sintomas={c.sintomas}
-            citaS={citas}
-            setCitaS={setCitas}
+            citas={citas}
+            setCitas={setCitas}
           />
         ))}
       </div>

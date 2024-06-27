@@ -1,5 +1,5 @@
 import styles from "./page.module.css";
-export default function Quienes({params}){
+export default function Quienes(){
     return (
     <main className={styles.main}>
       <div className={styles.description}>
