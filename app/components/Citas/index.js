@@ -1,8 +1,10 @@
+"use client";
 import React from 'react';
 import Cita from '../Cita';
 import styles from "./citas.module.css";
 
 export const Citas = ({ citas, setCitas }) => {
+  
   return (
     <div>
       <h2>Administra tus citas</h2>

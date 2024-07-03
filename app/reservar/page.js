@@ -2,11 +2,16 @@
 
 import Form from '../components/Form';
 import Citas from '../components/Citas';
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 export default function Reservar(){
-  const [citas, setCitas] = useState([]); 
+  const [citas, setCitas] = useState(localStorage.getItem("citas") ? JSON.parse(localStorage.getItem("citas")) : []); 
 
+  useEffect(() =>{
+    if (citas){
+      localStorage.setItem("citas", JSON.stringify(citas));
+    }
+  }, [citas])
   return (
     <div>
       <div className="one-half column">
