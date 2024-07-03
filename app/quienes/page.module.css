@@ -1,0 +1,32 @@
+.main {
+    text-align: center;
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  .description h1, .description h2 {
+    color: white;
+    padding: 3rem 0;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Staatliches', cursive;
+    letter-spacing: 1px;
+  }
+  .description h1 {
+    font-size: 4rem;
+    line-height: 1.2;
+    letter-spacing: -.1rem;
+  }
+  .description h2 {
+    font-size: 3.6rem;
+    line-height: 1.25;
+    letter-spacing: -.1rem;
+    margin: 0.83em 0;
+    font-weight: bold;
+  }
+  

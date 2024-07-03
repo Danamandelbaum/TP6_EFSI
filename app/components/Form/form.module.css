@@ -1,0 +1,47 @@
+.one-half.column {
+    width: 40%;
+  }
+  label {
+    margin-bottom: 1.5rem; /* Aumentar el espacio entre etiquetas y campos de entrada */
+  }
+  .u-full-width {
+    width: 90%;
+    box-sizing: border-box;
+    margin: 10px;
+  }
+  .onn {
+    width: 90%;
+    box-sizing: border-box;
+    margin: 10px;
+    margin-left: 380px;
+  }
+  textarea {
+    min-height: 65px;
+    padding-top: 8px;
+    padding-bottom: 6px;
+  }
+  button, input, optgroup, select, textarea {
+    font-family: inherit;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0;
+  }
+  input[type=email], input[type=number], input[type=password], input[type=search], input[type=tel], input[type=text], input[type=url], textarea {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+  }
+  input[type=email], input[type=number], input[type=password], input[type=search], input[type=tel], input[type=text], input[type=url], select, textarea {
+    height: 38px;
+    padding: 6px 10px;
+    background-color: #fff;
+    border: 1px solid #D1D1D1;
+    border-radius: 4px;
+    box-shadow: none;
+    box-sizing: border-box;
+  }
+  .button-primary {
+    background-color: #1EAEDB;
+    padding: 10px;
+  }
+  
