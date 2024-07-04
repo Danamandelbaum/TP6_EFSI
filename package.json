@@ -1,6 +1,7 @@
 {
   "name": "my-app",
   "version": "0.1.0",
+  "homepage": "https://Danamandelbaum.github.io/TP6_EFSI",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -9,8 +10,9 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "gh-pages": "^6.1.1",
+    "next": "14.2.3",
     "react": "^18",
-    "react-dom": "^18",
-    "next": "14.2.3"
+    "react-dom": "^18"
   }
 }
