@@ -7,8 +7,8 @@ export const Citas = ({ citas, setCitas }) => {
   
   return (
     <div>
-      <h2>Administra tus citas</h2>
-      <div className="citas">
+      <h2  className={styles.h2}>Administra tus citas</h2>
+      <div  className={styles.citas}>
         {citas.map((c, index) => (
           <Cita
             index={index}

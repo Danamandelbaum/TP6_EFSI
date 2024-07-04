@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <div className={styles.description}>
-        <h1>¡Bienvenido!</h1>
+        <h1  className={styles.h1}>¡Bienvenido!</h1>
       </div>
     </main>
   );

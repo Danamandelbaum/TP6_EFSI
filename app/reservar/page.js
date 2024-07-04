@@ -1,6 +1,7 @@
 "use client"
 
 import Form from '../components/Form';
+import styles from "./page.module.css";
 import Citas from '../components/Citas';
 import { useEffect, useState } from "react";
 
@@ -14,10 +15,10 @@ export default function Reservar(){
   }, [citas])
   return (
     <div>
-      <div className="one-half column">
+      <div  className={styles.one}>
         <Form citas={citas} setCitas={setCitas}/>
       </div>
-      <div className="one-half column">
+      <div  className={styles.one}>
         <Citas citas={citas} setCitas={setCitas} />
       </div>
     </div>
