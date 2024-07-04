@@ -1,0 +1,22 @@
+.main {
+    text-align: center;
+    color: white;
+  }
+  
+  .description {
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+  }
+  
+  .h1 {
+    margin: 0;
+    
+    font-size: 2em;
+  }
+  
+  .h2 {
+    margin: 10px 0 0;
+    font-size: 1.2em;
+  }
+  

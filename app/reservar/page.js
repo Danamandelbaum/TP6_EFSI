@@ -15,6 +15,7 @@ export default function Reservar(){
   }, [citas])
   return (
     <div>
+      <h2  className={styles.h2}>Administra tus citas</h2>
       <div  className={styles.one}>
         <Form citas={citas} setCitas={setCitas}/>
       </div>
