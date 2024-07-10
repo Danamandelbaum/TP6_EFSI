@@ -22,7 +22,7 @@ export default function RootLayout({ children }) {
               <Link href = "/reservar">Reservar</Link>
             </li>
             <li>
-              <Link href = "/quienes">Quienes somos</Link>
+              <Link href = "/quienes-somos">Quienes somos</Link>
             </li>
             <li>
               <Link href = "/ayuda">Ayuda</Link>
